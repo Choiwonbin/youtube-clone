@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Choiwonbin/youtube-clone.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Wonbin Choi",
   "license": "MIT",
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/Choiwonbin/youtube-clone#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "mongoose": "^6.3.1",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
